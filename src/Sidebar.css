@@ -1,0 +1,177 @@
+/* .sidebar {
+    background-color: #171717;
+    color: #b4b4b4;
+    height: 100vh;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+}
+
+button span {
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.history {
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+}
+
+.history li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 6px 10px;
+    margin-bottom: 0.3rem;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+}
+
+.history li:hover {
+    background-color: rgba(180, 180, 180, 0.05);
+}
+
+.history li .fa-trash {
+    color: #b4b4b4;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.history li .fa-trash:hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+.history li.highlighted {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sign {
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: solid 0.25px rgba(255, 255, 255, 0.5);
+} */
+
+.sidebar {
+    /* Neutral Dark Gray Background */
+    background-color: #242424; 
+    color: #ffffff; /* Pure White Text */
+    height: 100vh;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 25px;
+    width: 25px;
+    /* Lime Green Accent */
+    background-color: #aeea00; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    /* Lime Green Accent Border */
+    border: solid 0.5px rgba(174, 234, 0, 0.7); 
+    color: #f0f0f0;
+}
+
+button span {
+    font-size: 20px;
+}
+
+button:hover {
+    /* Hover using transparent accent */
+    background-color: rgba(174, 234, 0, 0.1); 
+}
+
+.history {
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+}
+
+.history li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 6px 10px;
+    margin-bottom: 0.3rem;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+    color: #ffffff; 
+}
+
+.history li:hover {
+    /* Subtle hover */
+    background-color: rgba(174, 234, 0, 0.08); 
+}
+
+.history li .fa-trash {
+    color: #888888; /* Darker Gray */
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.history li .fa-trash:hover {
+    color: #ff5252; 
+    transform: scale(1.1);
+}
+
+.history li.highlighted {
+    /* Clearer active state */
+    background-color: rgba(174, 234, 0, 0.2);
+}
+
+.sign {
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    text-align: center;
+    /* Border line accent */
+    border-top: solid 0.25px rgba(174, 234, 0, 0.5); 
+    color: #888888;
+}
